@@ -200,6 +200,57 @@ nav{
         width: 20rem;
     }
     
+}
 
+.range>h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
 
+.range{
+    margin-block: 3rem;
+}
+.range>p{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-weight: 200s;
+    font-size: .8rem;
+    margin-top: -1rem;
+    font-style: normal;
+}
+
+.rang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 60vh;
+    margin-block: 1rem;
+    /* border: 2px solid; */
+}
+
+.ranImg>img{
+    border-radius: 10px;
+    height: 25rem;
+}
+
+.ranImg>h3{
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: -12rem;
+    color: black;
+    text-align: center;
+}
+
+@media (min-width:360px) and (max-width:800px) {
+    .rang{
+        margin-top: 28rem;      
+        gap: 14rem;
+        flex-direction: column;
+    }
 }
