@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+}
+
+.genLa{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navBar>i{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.logo>img{
+    height: 32px;
+    width: 50px;
+}
+
+#navList{
+    display: none;
+}
+
+.navList>ul{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navList a{
+    transition: color .1s ease;
+}
+
+.navList a:hover{
+    color: #B88E2F;
+}
+
+.navList a.active{
+    color: #B88E2F;
+}
+
+.navList>ul>li>a{
+    color: black;
+    font-size: 16px;
+}
+
+.navItems{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.banner{
+    background-image: url(img/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    /* background-size: covers; */
+    position: relative;
+}
+
+.bannerContent{
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    width: 30rem;
+    padding: 2rem;
+    background-color: #FFF3E3;
+}
+
+.bannerContent>h5{
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bannerContent>h1{
+    font-family: "Poppins", serif;
+    font-style: bold;
+    text-transform: capitalize;
+    width: 17rem;
+    color: #B88E2F;
+    margin-top: -1rem;
+}
+
+.bannerContent>p{
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-size: .8rem;
+    font-style: medium;
+    margin-top: -1rem;
+}
+
+.bannerContent>button{
+    height: 2rem;
+    width: 6rem;
+    background-color: #B88E2F;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: .7rem;
+}
+
+@media (min-width:360px) and (max-width:800px) {
+    .navBar>i{
+        display: block;
+        cursor: pointer;
+    }
+
+    #navList{
+        display: none;
+        position: absolute;
+        width: 20rem;
+        padding: 1.8rem;
+        height: 20rem;
+        top: 3rem;
+        z-index: 1;
+        left: -80%;
+        background-color: rgb(255, 248, 248);
+        opacity: .97;
+        border-bottom: 4px solid wheat;
+        font-size: 1.5rem;
+        text-align: center;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #navList>ul>li>a{
+        color: black;
+        text-transform: capitalize;
+    }
+
+    #navList>ul>li{
+        border-bottom: 4px solid black;
+        margin-bottom: 2rem;
+    }
+
+    #navList a{
+        transition: color .1s ease;
+    }
+    
+    #navList a:hover{
+        color: #B88E2F;
+    }
+    
+    #navList a.active{
+        color: #B88E2F;
+    }
+    
+
+    .navList{
+        display: none;
+    }
+
+    nav{
+        margin-top: -1rem;
+    }
+
+    .banner{
+        background-size: cover;
+    }
+
+    .bannerContent{
+        position: absolute;
+        bottom: 12%;
+        right: 5%;
+        width: 20rem;
+    }
+    
+
+
+}
