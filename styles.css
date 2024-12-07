@@ -86,6 +86,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     height: 35rem;
+    width: 100%;
     position: relative;
 }
 
@@ -262,13 +263,13 @@ nav{
 }
 
 .grid{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 4rem;
-    /* display: flex;
+    margin-left: 4rem; */
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem; */
+    gap: 2rem;
 }
 
 .container {
@@ -399,8 +400,9 @@ nav{
    .grid{
     margin-top: 3rem;
     overflow-x: scroll;
-    margin-left: 0rem;
+    /* margin-left: 0rem; */
     gap: 1rem;
+    justify-content: start;
    }
 
 }
