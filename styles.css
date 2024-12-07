@@ -262,6 +262,10 @@ nav{
     margin-block: 6rem;
 }
 
+.products>h1{
+    margin-bottom: 3rem;
+}
+
 .grid{
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -269,7 +273,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .container {
@@ -398,7 +402,7 @@ nav{
 
   @media (min-width:360px) and (max-width:800px) {
    .grid{
-    margin-top: 3rem;
+    /* margin-top: rem; */
     overflow-x: scroll;
     /* margin-left: 0rem; */
     gap: 1rem;
