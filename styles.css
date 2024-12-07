@@ -250,7 +250,7 @@ nav{
 @media (min-width:360px) and (max-width:800px) {
     .rang{
         /* margin-top: 28rem;       */
-        gap: 14rem;
+        /* gap: 1rem; */
         flex-direction: column;
     }
 }
