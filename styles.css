@@ -262,6 +262,11 @@ nav{
     margin-block: 6rem;
 }
 
+.centa{
+    max-width: 1100px;
+    margin: auto;
+}
+
 .products>h1{
     margin-bottom: 3rem;
 }
@@ -390,7 +395,7 @@ nav{
  .text>ul>li>a{
     color: #fff;
  }
-/* 
+
  .products>button{
     background-color: #fff;
     border: 1px solid #B88E2F;
@@ -401,14 +406,19 @@ nav{
     font-family: "Poppins", serif;
     font-weight: 600;
     margin-top: 1rem;
+    border-radius: 5px;
+    transition: .5s;
  }
-  */
+
+ .products>button:hover{
+    background-color: #B88E2F;
+    color: white;
+ }
+ 
 
   @media (min-width:360px) and (max-width:800px) {
    .grid{
-    /* margin-top: rem; */
     overflow-x: scroll;
-    /* margin-left: 0rem; */
     gap: 1rem;
     justify-content: start;
    }
