@@ -15,8 +15,8 @@ nav{
 }
 
 .genLa{
-    max-width: 1300px;
-    margin: auto;
+        max-width: 1000px;
+        margin: auto;
 }
 
 .navBar{
@@ -262,10 +262,7 @@ nav{
     margin-block: 4rem;
 }
 
-.centa{
-    max-width: 1100px;
-    margin: auto;
-}
+
 
 .products>h1{
     margin-bottom: 3rem;
@@ -424,3 +421,9 @@ nav{
    }
 
 }
+
+/* .inspration{
+    background-color: #FCF8F3;
+    height: 70vh;
+    width: 100%;
+} */

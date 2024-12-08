@@ -17,3 +17,4 @@ showMoreBtn.addEventListener("click", () => {
   });
   showMoreBtn.textContent = showMoreBtn.textContent === "Show More" ? "Show Less" : "Show More";
 });
+
