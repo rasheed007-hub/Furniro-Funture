@@ -267,15 +267,19 @@ nav{
 }
 
 .grid{
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 4rem; */
-    display: flex;
+    gap: 1rem;
+    /* margin-left: 4rem; */
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem; */
 }
 
+.hidden-items {
+    display: none; /* Initially hidden */
+}
 .container {
     position: relative;
     width: 15rem;

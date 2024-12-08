@@ -6,3 +6,14 @@ function myFunction() {
       x.style.display = "none";
     }
   }
+
+
+  const showMoreBtn = document.querySelector(".show-more-btn");
+const hiddenItems = document.querySelectorAll(".hidden-items");
+
+showMoreBtn.addEventListener("click", () => {
+  hiddenItems.forEach(container => {
+    container.style.display = container.style.display === "none" || !container.style.display ? "block" : "none";
+  });
+  showMoreBtn.textContent = showMoreBtn.textContent === "Show More" ? "Show Less" : "Show More";
+});
