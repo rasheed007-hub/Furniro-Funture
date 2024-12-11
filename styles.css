@@ -424,7 +424,6 @@ nav{
 }
 
 .peace{
-    /* width: 100%; */
     background-color: #B88E2F;
     padding-block: 3rem;
 }
@@ -498,6 +497,11 @@ nav{
     text-align: center;
     font-family: "Poppins", serif;
     padding-block: 4rem;
+}
+
+.share>h1{
+    font-size: 2rem;
+    margin-top: -1rem;
 }
 
 marquee{
