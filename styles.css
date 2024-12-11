@@ -17,6 +17,7 @@ nav{
 .genLa{
         max-width: 1000px;
         margin: auto;
+        /* border: 1px solid; */
 }
 
 .navBar{
@@ -422,8 +423,107 @@ nav{
 
 }
 
-/* .inspration{
-    background-color: #FCF8F3;
-    height: 70vh;
-    width: 100%;
-} */
+.peace{
+    /* width: 100%; */
+    background-color: #B88E2F;
+    padding-block: 3rem;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.beaut>h1{
+    font-family: "Poppins", serif;
+    font-size: 2.5rem;
+}
+
+.beaut>p{
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    opacity: .8;
+}
+
+.block{
+   display: flex;
+   justify-content: center;
+   height: 350px;
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+.block>img{
+    width: 35%;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+}
+
+.block img:first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+.block img:last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.block>img:hover{
+    width: 60%;
+}
+
+@media (min-width:360px) and (max-width:800px){
+
+    .peace{
+        border-radius:  0px 0px 15px 15px;
+    }
+
+    .inner{
+        flex-direction: column;
+    }
+
+    .beaut>h1{
+        font-size: 2rem;
+        width: 23rem;
+    }
+
+    .beaut>p{
+        width: 23rem;
+    }
+
+}
+
+.share{
+    text-align: center;
+    font-family: "Poppins", serif;
+    padding-block: 4rem;
+    border: 1px solid;
+}
+
+marquee{
+   behavior: alternate;
+}
+
+
+.zip{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-items{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* align-items: end; */
+    gap: 1rem;
+}
+.box-items:first-child{
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+@media (min-width:360px) and (max-width:800px){
+
+}

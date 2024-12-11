@@ -9,7 +9,7 @@ function myFunction() {
 
 
   const showMoreBtn = document.querySelector(".show-more-btn");
-const hiddenItems = document.querySelectorAll(".hidden-items");
+  const hiddenItems = document.querySelectorAll(".hidden-items");
 
 showMoreBtn.addEventListener("click", () => {
   hiddenItems.forEach(container => {
