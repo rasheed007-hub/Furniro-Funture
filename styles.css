@@ -530,3 +530,11 @@ marquee{
 @media (min-width:360px) and (max-width:800px){
 
 }
+
+.funiro{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
