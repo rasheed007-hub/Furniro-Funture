@@ -425,7 +425,6 @@ nav{
 
 .peace{
     background-color: #B88E2F;
-    padding-block: 3rem;
 }
 
 .inner{
@@ -433,6 +432,7 @@ nav{
     justify-content: center;
     gap: 2rem;
     align-items: center;
+    margin-block: 3rem;
 }
 
 
