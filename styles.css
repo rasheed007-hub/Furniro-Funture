@@ -598,21 +598,6 @@ marquee{
 
 @media (min-width:360px) and (max-width:800px) {
     .furniro{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .inp{
-        width: 8rem;
-    }
-    
-    .inp input{
-        border: none;
-        outline: none;
-        width: 7rem;
-    }
-    
-    .input button{
-        border-bottom: 2px solid;
-        font-size: .6rem;
-    }
-
 }
