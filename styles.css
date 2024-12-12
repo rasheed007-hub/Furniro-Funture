@@ -424,7 +424,8 @@ nav{
 }
 
 .peace{
-    background-color: #B88E2F;
+    background-color: #FCF8F3;
+    padding-block: 1rem;
 }
 
 .inner{
@@ -474,9 +475,6 @@ nav{
 
 @media (min-width:360px) and (max-width:800px){
 
-    .peace{
-        border-radius:  0px 0px 20px 20px;
-    }
 
     .inner{
         flex-direction: column;
@@ -530,6 +528,11 @@ marquee{
 
 }
 
+.lins{
+    border-top: 1px solid;
+    padding-block: 2rem;
+}
+
 .furniro{
  display: grid;
  grid-template-columns: repeat(4, 1fr);
@@ -555,7 +558,11 @@ marquee{
 .two>p{
     opacity: .7;
     font-size: 1rem;
-}   
+}
+
+.two>ul>li{
+    margin-bottom: 1rem;
+}
 
 .two>ul>li>a{
     font-size: .8rem;
@@ -575,7 +582,7 @@ marquee{
 }
 
 .inp{
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     width: 10rem;
 }
 
@@ -586,7 +593,7 @@ marquee{
 }
 
 .input button{
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     background-color: transparent;
     text-transform: uppercase;
     font-weight: 600;
@@ -602,4 +609,10 @@ marquee{
         flex-direction: column;
         width: 4rem;
     }
+}
+
+.foot{
+    border-top: 1px solid;
+    font-family: "Poppins", serif;
+    font-weight: 500;
 }
