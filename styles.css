@@ -475,7 +475,7 @@ nav{
 @media (min-width:360px) and (max-width:800px){
 
     .peace{
-        border-radius:  0px 0px 15px 15px;
+        border-radius:  0px 0px 20px 20px;
     }
 
     .inner{
@@ -519,7 +519,6 @@ marquee{
 .box-items{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /* align-items: end; */
     gap: 1rem;
 }
 .box-items:first-child{
