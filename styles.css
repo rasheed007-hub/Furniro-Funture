@@ -28,6 +28,7 @@ nav{
 
 .navBar>i{
     display: none;
+    font-size: 1.5rem;
 }
 
 .logo{
@@ -47,6 +48,9 @@ nav{
 
 #navList{
     display: none;
+    background-color: rgba(177, 154, 154, 0.541);
+    width: 100%;
+    height: 90%;
 }
 
 .navList>ul{
@@ -144,18 +148,14 @@ nav{
     #navList{
         display: none;
         position: absolute;
-        width: 24rem;
-        padding-top: 6rem;
-        padding-left: 2rem;
-        height: 35rem;
         top: 3rem;
         z-index: 1;
         left: -100%;
-        background-color: rgba(255, 248, 248, 0.822);
         opacity: .97;
         border-bottom: 4px solid wheat;
         font-size: 1.5rem;
         text-align: center;
+        padding-top: 4rem;
         transform: translate(100%, 0);
         transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
     }
@@ -167,9 +167,8 @@ nav{
 
     #navList>ul>li{
         text-align: center;
-        width: 21rem;
         border-bottom: 1px solid black;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 
     #navList a{
