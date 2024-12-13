@@ -539,6 +539,7 @@ marquee{
  text-align: start;
  text-transform: capitalize;
  font-family: "Poppins", serif;
+ align-items: baseline;
 }
 
 .one{
